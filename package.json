@@ -1,6 +1,6 @@
 {
   "name": "paramset-validator",
-  "version": "2.3.1",
+  "version": "2.3.3",
   "description": "Lightweight, schema-based parameter set validator with support for nested objects, custom async validators, and detailed error reporting.",
   "main": "src/index.js",
   "types": "src/index.d.ts",
