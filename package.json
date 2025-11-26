@@ -1,0 +1,39 @@
+{
+  "name": "paramset-validator",
+  "version": "2.3.1",
+  "description": "Lightweight, schema-based parameter set validator with support for nested objects, custom async validators, and detailed error reporting.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "keywords": [
+    "validation",
+    "validator",
+    "schema",
+    "paramset",
+    "parameters",
+    "config",
+    "runtime-check"
+  ],
+  "author": "Mikhail Vokilov <tg-packages@proton.me>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tg-packages/paramset-validator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tg-packages/paramset-validator/issues"
+  },
+  "homepage": "https://github.com/tg-packages/paramset-validator#readme",
+  "scripts": {
+    "test": "jest --coverage",
+    "test:watch": "jest --watch",
+    "lint": "eslint src test",
+    "build": "echo 'No build step required'"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^8.57.0"
+  },
+  "optionalDependencies": {
+    "paramset-utils": "github:tg-packages/paramset-utils"
+  }
+}
